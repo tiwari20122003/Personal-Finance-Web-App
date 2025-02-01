@@ -36,7 +36,7 @@ Data is visualized using circular progress bars from the **antd** library.
 
 **4. Data Visualization**
 
-Transactions are processed to calculate total income and expense percentages.
+Transactions are processed to calculate **total income and expense percentages.**
 
 Progress bars represent income and expense turnover.
 
@@ -46,27 +46,27 @@ Transactions are categorized, and category-wise progress bars help users analyze
 
 Users receive notifications for actions like successful transaction additions, updates, deletions, and errors.
 
-Backend Implementation
+**Backend Implementation**
 
-The backend server is built using Express.js.
+The backend server is built using **Express.js.**
 
-CORS Middleware is used to allow communication between the frontend and backend.
+**CORS Middleware** is used to allow communication between the frontend and backend.
 
-JSON Parsing is handled using express.json().
+**JSON Parsing** is handled using "express.json()".
 
-Routes are defined separately for users and transactions to improve code maintainability.
+Routes are defined separately for **users** and **transactions** to improve code maintainability.
 
-Challenges Faced & Solutions
+**Challenges Faced & Solutions**
 
-Handling CORS Issues
+**Handling CORS Issues**
 
 Used cors middleware in Express with app.use(cors()) to allow frontend-backend communication.
 
-Managing Multiple API Endpoints
+**Managing Multiple API Endpoints**
 
 Organized routes into separate files like userRoutes.js and transactionRoutes.js to enhance code readability and maintainability.
 
-Important Concepts Used
+**Important Concepts Used**
 
 **1. JWT Authentication**
 
@@ -74,11 +74,11 @@ Stateless authentication, reducing server load and improving scalability.
 
 **2. API Testing**
 
-Tested using Postman and Thunderclient.
+Tested using **Postman** and **Thunderclient.**
 
 **3. ORM (Object-Relational Mapping)**
 
-Mongoose is used to interact with MongoDB.
+**Mongoose** is used to interact with MongoDB.
 
 Mongoose schema is created to define the structure of data.
 
@@ -94,36 +94,34 @@ await pauses execution until the promise is resolved.
 
 **6. Sync vs Async**
 
-Sync is blocking (executes one request at a time).
+**Sync** is blocking (executes one request at a time).
 
-Async is non-blocking (handles multiple requests simultaneously).
+**Async** is non-blocking (handles multiple requests simultaneously).
 
 **7. Environment Variables**
 
-.env file is used to store configuration values like PORT and MongoDB URI.
+.env file is used to store configuration values like **PORT** and **MongoDB URI.**
 
 require('dotenv').config() loads environment variables.
 
-HTTP Methods Used
+**HTTP Methods Used**
 
-GET Method
-
-
+**GET Method**
 
 Example: https://example.com/dept?name=finance
 
 Can be bookmarked because it contains all request details in the URL.
 
-POST Method
+**POST Method**
 
 Example: Submitting a form with financial data.
 
 Cannot be bookmarked because data is sent in the request body, not in the URL.
 
-Conclusion
+**Conclusion**
 
-This Personal Finance Management Web App helps users keep track of their financial activities, offering authentication, transaction management, data visualization, and easy-to-use features. 
-The project is built with MongoDB, Express.js, React, and Node.js, ensuring efficiency and scalability.
+This **Personal Finance Management Web App** helps users keep track of their financial activities, offering authentication, transaction management, data visualization, and easy-to-use features. 
+The project is built with **MongoDB, Express.js, React, and Node.js,** ensuring efficiency and scalability.
 
 Video Demonstration of the Functional Overview of our Application:
 https://github.com/user-attachments/assets/763a7aa5-6081-4d1e-8039-ae2547ac4902
